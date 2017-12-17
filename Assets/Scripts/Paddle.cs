@@ -5,7 +5,7 @@ using UnityEngine;
 public class Paddle : MonoBehaviour {
     float speed = 0.2f;       // how far the paddle moves per frame
     Transform myTransform;
-    int direction = 0;
+ 
     // Use this for initialization
     void Start () {
         myTransform = transform;

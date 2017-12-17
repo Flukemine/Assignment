@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Paddle2 : MonoBehaviour {
-    int direction = 8;
+   
     // Use this for initialization
     void Start () {
 		
@@ -24,9 +24,5 @@ public class Paddle2 : MonoBehaviour {
 
     }
 
-    void OnCollisionExit2D(Collision2D other)
-    {
-        //float adjust = 5 * direction;
-        //other.rigidbody.velocity = new Vector2(other.rigidbody.velocity.x + 0.7f, other.rigidbody.velocity.y + adjust);
-    }
+   
 }

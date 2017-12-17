@@ -22,16 +22,16 @@ public class Scorerights : MonoBehaviour
 
     public void OnCollisionEnter2D(Collision2D collsion)
     {
-        // ArrayList totalScore = new ArrayList();
+  
         scores1 = (scores1 + 1) + counts;
-        //scores1++;
+     
         
         if (collsion.gameObject.name =="ball" )
         {
             if (scores1 == 3)
             {
                 SceneManager.LoadScene("Level2");
-               // totalScore.Add(2);
+             
                 counts = 0;
             }
         }
@@ -59,9 +59,7 @@ public class Scorerights : MonoBehaviour
     }
 
 
-        public  static void Displays() {
-        //myScore.text = "The total score is  " + totalScore;
-    }
+      
 
         }
 

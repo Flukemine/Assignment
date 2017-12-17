@@ -4,13 +4,11 @@ using UnityEngine;
 
 public class moveobs : MonoBehaviour {
     Transform myTransform;
-    int move = 0;
     float speed = 0.2f;
     // Use this for initialization
     void Start () {
         myTransform = transform;
-      //  obs = GameObject.FindObjectOfType<move>();
-      //  move = GetComponent<Rigidbody2D>();
+      
     }
 	
 	// Update is called once per frame
